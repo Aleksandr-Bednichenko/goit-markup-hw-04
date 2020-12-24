@@ -35,8 +35,10 @@
         <!--секция Герой-->
         <section class="hero">
             <div class="conteiner">                
-                 <h1 class="hero-text">Эффективные решения <br/> для вашего бизнеса</h1>
-                <button type="button" class="hero-button">Заказать услугу</button>                
+                <div class="hero-width">
+                    <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+                    <button type="button" class="hero-button">Заказать услугу</button>  
+                </div>              
             </div>
         </section>
         
@@ -46,6 +48,11 @@
                 <h2 class="invisible-title">Наши преимущества</h2>
                 <ul class="advantages-elements">
                     <li class="advantages-element" >
+                        <a href="">
+                            <svg class="advantages-icon">
+                                <use class="icon-element" href="./img/symbol-defs.svg#icon-antenna" width=70px hidgh=70px ></use>
+                            </svg>
+                        </a>
                         <h3 class="name">Внимание к деталям</h3>  
                         <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>   
                     </li>
@@ -71,21 +78,21 @@
                     <h2 class="activity-titel">Чем мы занимаемся</h2>
                     <ul class="activity-variants">
                         <li class="activity-variant"> 
-                                <a href="#"><img src="./img/z1.png" 
+                                <a href="#"><img src="./img/z1.jpg" 
                                                 alt="написание документации" 
                                                 width="370" 
                                                 height="294">
                                 </a> 
                         </li>
                         <li class="activity-variant">
-                                <a href=""><img src="./img/z2.png" 
+                                <a href=""><img src="./img/z2.jpg" 
                                                 alt="разработка мобильных приложения" 
                                                 width="370" 
                                                 height="294">
                                 </a>
                         </li>
                         <li class="activity-variant">
-                                <a href=""><img src="./img/z3.png" 
+                                <a href=""><img src="./img/z3.jpg" 
                                                 alt="подбор цвета с помощю приложения" 
                                                 width="370" 
                                                 height="294">
@@ -152,28 +159,100 @@
                 </ul>                
             </div>                
         </section>
+
+        <!--Постоянные клиенты-->
+        <section class="regular-customers">
+            <div class="conteiner ">
+                <h2 class="customers-titel">Постоянные клиенты</h2>
+                <ul class="buyer-list">
+                    <li class="customers-element">
+                       <a href=""> 
+                            <svg class="customers-logo">
+                                <use href="./img/symbol-defs.svg#icon-logo1"></use>
+                            </svg>    
+                       </a>
+                    </li>
+                    <li class="customers-element">
+                        <a href=""> 
+                             <svg class="customers-logo">
+                                 <use href="./img/symbol-defs.svg#icon-logo2"></use>
+                             </svg>    
+                        </a>
+                     </li>
+                     <li class="customers-element">
+                        <a href=""> 
+                             <svg class="customers-logo">
+                                 <use href="./img/symbol-defs.svg#icon-logo3"></use>
+                             </svg>    
+                        </a>
+                     </li>
+                     <li class="customers-element">
+                        <a href=""> 
+                             <svg class="customers-logo sizefor">
+                                 <use href="./img/symbol-defs.svg#icon-logo4"></use>
+                             </svg>    
+                        </a>
+                     </li>
+                     <li class="customers-element">
+                        <a href=""> 
+                             <svg class="customers-logo">
+                                 <use href="./img/symbol-defs.svg#icon-logo5"></use>
+                             </svg>    
+                        </a>
+                     </li>
+                     <li class="customers-element sizesix">
+                        <a href=""> 
+                             <svg class="customers-logo">
+                                 <use href="./img/symbol-defs.svg#icon-logo6"></use>
+                             </svg>    
+                        </a>
+                     </li>
+                    
+                </ul>
+            </div>
+        </section>
         
     </main>
 
     <!--Контактная информация подвал-->
     <footer class="page-footer">
-        <section class="footer-sec">
+        <section >
             <div class="conteiner">
-                <h2 class="invisible-title">Подвал</h2>
-                <a class="logo-footer" href="#">Web<span class="logo-color-footer">Studio</span> </a>
-                <address> 
-                    <ul class="contacts">
-                        <li class="contact-element">
-                            <p>г. Киев, пр-т Леси Украинки, 26</p>
-                        </li>
-                        <li class="contact-element contacts-foter">
-                            <a href="mailto:info@example.com">info@example.com</a>
-                        </li>
-                        <li class="contact-element contacts-foter">
-                            <a href="tel:380991111111">+38 099 111 11 11</a>
-                        </li>                     
-                    </ul>
-                </address>
+                <div class="contacts-footer">
+                    <div>
+                        <h2 class="invisible-title">Подвал</h2>
+                        <a class="logo-footer" href="#">Web<span class="logo-color-footer">Studio</span> </a>
+                        <address> 
+                            <ul class="contacts">
+                                <li class="contact-element">
+                                    <p>г. Киев, пр-т Леси Украинки, 26</p>
+                                </li>
+                                <li class="contact-element contacts-foter">
+                                    <a href="mailto:info@example.com">info@example.com</a>
+                                </li>
+                                <li class="contact-element contacts-foter">
+                                    <a href="tel:380991111111">+38 099 111 11 11</a>
+                                </li>                     
+                            </ul>
+                        </address>
+                    </div>
+                    
+                    <div class="social-networks">
+                        <p class="titel-networks">присоединяйтесь</p>
+                        <ul>
+                            <li> <a href="#"></a> 
+                            </li>
+                            <li>
+
+                            </li>
+                            <li>
+                                
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                
             </div>
         </section>        
     </footer>

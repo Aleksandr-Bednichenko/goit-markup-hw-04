@@ -1,7 +1,7 @@
 /* Hedaer*/
 
 :root {
- /*--main-backgraund-color:#E5E5E5;*/
+ --logo-backgraund-color:#E5E5E5;
   --dark-backgraund-color: #2f303a;
   --black-text-color: #212121;
   --hover-text-color: #2196f3;
@@ -132,6 +132,11 @@ margin-right: 50px;
   padding-bottom: 200px;
 }
 
+.hero-width{
+ display: inline-block; 
+ width: 696px;
+}
+
 .hero-text {
   
   display: block;
@@ -208,6 +213,25 @@ margin-right: 50px;
   ...
 }
 
+.advantages-icon{
+  display:inline-flex;
+  
+  width: 270px;
+  height: 120px;
+  background-color:var(--button-background-color) ;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+/*
+.icon-element{
+  display: inline-flex;
+  /*width: 70px;
+  height: 70px;*/
+  align-items: center;
+  justify-content: center;
+}*/
+
 .name{
   margin-bottom: 10px;
 }
@@ -265,7 +289,7 @@ margin-right: 50px;
 
 .comand {
   display: flex;
-  background-color: var(--white-background-color);
+  background-color: var(--button-background-color);
   padding-top: 94px;
   padding-bottom: 94px; 
   
@@ -323,6 +347,77 @@ margin-right: 50px;
   color: var(--grey-text-color);
 }
 
+/*Постоянные клиенты*/
+
+.regular-customers{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.customers-titel{
+margin-bottom: 50px;
+
+font-weight: 700px;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black-text-color);
+}
+
+
+
+.buyer-list{
+  display: flex;
+}
+
+.buyer-list>.customers-element:not(:last-child){
+  margin-right: 30px;
+}
+
+.customers-element{
+  display:inline-flex;
+  width: 170px;
+  height: 90px;
+  border: 2px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background:var(--logo-backgraund-color);
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.customers-element .sizefor{
+  width: 80px;
+  height: 42px;
+  fill:#AFB1B8;
+}
+
+.customers-logo{
+  width: 88px;
+  height: 45px;  
+  fill:#AFB1B8;
+}
+
+
+
+.customers-element:hover ,
+.customers-element:focus {
+ border-color: var(--hover-text-color);
+
+}
+
+.customers-logo:hover,
+.customers-logo:focus{
+  fill: var(--hover-text-color);
+}
+
+
+
 /*Футер*/
 
 .page-footer {
@@ -333,6 +428,15 @@ margin-right: 50px;
 
 .contacts>.contact-element:not(:last-child){
   margin-bottom: 9px; 
+}
+
+.contacts-footer{
+  display: flex;
+  text-align: center;
+}
+
+.social-networks{
+  margin-left: 70px;
 }
 
 .logo-footer{
@@ -371,6 +475,19 @@ margin-right: 50px;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.titel-networks{
+
+
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--white-text-color);
 }
 
 /*Портфолио кнопки*/
