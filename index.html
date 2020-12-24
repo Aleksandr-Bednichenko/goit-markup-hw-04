@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> goit-markup-hw-03</title>
+    <title> goit-markup-hw-04</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet"
@@ -24,8 +24,20 @@
                     </ul>
                 </nav>   
             <ul class="header-contacts">
-                <li class="contact-item"><a class="header-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contact-item"><a class="header-links" href="tel:380961111111">+38 096 111 11 11</a></li>
+                <li class="contact-item"><a class="header-links" href="mailto:info@devstudio.com">
+                                                <svg class="icon-envelope">
+                                                    <use class="icon-mail" href="./img/symbol-defs.svg#icon-envelope" ></use>
+                                                </svg>                    
+                                                info@devstudio.com
+                                         </a>
+                </li>
+                <li class="contact-item"><a class="header-links" href="tel:380961111111">
+                                                <svg class="icon-smartphone">
+                                                    <use class="icon-mail" href="./img/symbol-defs.svg#icon-smartphone" ></use>
+                                                </svg>
+                                                +38 096 111 11 11
+                                          </a>
+                </li>
             </ul>   
         </div>  
     </header>
@@ -34,7 +46,7 @@
     <main>
         <!--секция Герой-->
         <section class="hero">
-            <div class="conteiner">                
+            <div class="overley">                
                 <div class="hero-width">
                     <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
                     <button type="button" class="hero-button">Заказать услугу</button>  
@@ -50,21 +62,36 @@
                     <li class="advantages-element" >
                         <a href="">
                             <svg class="advantages-icon">
-                                <use class="icon-element" href="./img/symbol-defs.svg#icon-antenna" width=70px hidgh=70px ></use>
+                                <use class="icon-element" href="./img/symbol-defs.svg#icon-antenna" ></use>
                             </svg>
                         </a>
                         <h3 class="name">Внимание к деталям</h3>  
                         <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>   
                     </li>
                     <li class="advantages-element">
+                        <a href="">
+                            <svg class="advantages-icon">
+                                <use class="icon-element" href="./img/symbol-defs.svg#icon-clock" ></use>
+                            </svg>
+                        </a>
                         <h3 class="name">Пунктуальность</h3>  
                         <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>   
                     </li>
                     <li class="advantages-element">
+                        <a href="">
+                            <svg class="advantages-icon">
+                                <use class="icon-element" href="./img/symbol-defs.svg#icon-diagram" ></use>
+                            </svg>
+                        </a>
                         <h3 class="name">Планирование</h3>  
                         <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>   
                     </li>
                     <li class="advantages-element">
+                        <a href="">
+                            <svg class="advantages-icon">
+                                <use class="icon-element" href="./img/symbol-defs.svg#icon-astronaut" ></use>
+                            </svg>
+                        </a>
                         <h3 class="name">Современные технологии</h3>  
                         <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>   
                     </li>                    
@@ -117,6 +144,41 @@
                             <div class="background-titel">
                                  <h3 class="fuul-name">Игорь Демьяненко</h3>
                                  <p class="comand-position">Product Designer</p>
+                          
+                                <ul class="social-links">
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-instagram" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-twitter" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-facebook" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-linkedin" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+
                             </div>
                         </a>
                     </li>
@@ -129,6 +191,39 @@
                             <div class="background-titel">
                                     <h3 class="fuul-name">Ольга Репина</h3>
                                     <p class="comand-position">Frontend Developer</p>
+                                    <ul class="social-links">
+                                        <li class="social-link">
+                                            <a >
+                                                <svg class="icon-link">
+                                                    <use  href="./img/symbol-defs.svg#icon-instagram" ></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-link">
+                                            <a >
+                                                <svg class="icon-link">
+                                                    <use  href="./img/symbol-defs.svg#icon-twitter" ></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+    
+                                        <li class="social-link">
+                                            <a >
+                                                <svg class="icon-link">
+                                                    <use  href="./img/symbol-defs.svg#icon-facebook" ></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="social-link">
+                                            <a >
+                                                <svg class="icon-link">
+                                                    <use  href="./img/symbol-defs.svg#icon-linkedin" ></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
                             </div>
                         </a>
                     </li>
@@ -141,6 +236,39 @@
                              <div class="background-titel">
                                 <h3 class="fuul-name">Николай Тарасов</h3>
                                 <p class="comand-position">Marketing</p>
+                                <ul class="social-links">
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-instagram" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-twitter" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-facebook" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-linkedin" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
                             </div>
                         </a>
                     </li>
@@ -153,6 +281,39 @@
                             <div class="background-titel">
                                 <h3 class="fuul-name">Михаил Ермаков</h3>
                                 <p class="comand-position">UI Designer</p>
+                                <ul class="social-links">
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-instagram" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-twitter" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-facebook" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="social-link">
+                                        <a >
+                                            <svg class="icon-link">
+                                                <use  href="./img/symbol-defs.svg#icon-linkedin" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
                             </div>
                         </a>
                      </li>   
@@ -239,16 +400,39 @@
                     
                     <div class="social-networks">
                         <p class="titel-networks">присоединяйтесь</p>
-                        <ul>
-                            <li> <a href="#"></a> 
+                        <ul class="footer-links">
+                            <li class="footer-link">
+                                <a href="">
+                                    <svg class="icon-footer">
+                                        <use  href="./img/symbol-defs.svg#icon-instagram" ></use>
+                                    </svg>
+                                </a>
                             </li>
-                            <li>
+                            <li class="footer-link">
+                                <a  href="">
+                                    <svg class="icon-footer">
+                                        <use  href="./img/symbol-defs.svg#icon-twitter" ></use>
+                                    </svg>
+                                </a>
+                            </li>
 
+                            <li class="footer-link">
+                                <a  href="">
+                                    <svg class="icon-footer">
+                                        <use  href="./img/symbol-defs.svg#icon-facebook" ></use>
+                                    </svg>
+                                </a>
                             </li>
-                            <li>
-                                
+                            
+                            <li class="footer-link">
+                                <a  href="">
+                                    <svg class="icon-footer">
+                                        <use  href="./img/symbol-defs.svg#icon-linkedin" ></use>
+                                    </svg>
+                                </a>
                             </li>
-                            <li></li>
+                            
+                        </ul>
                         </ul>
                     </div>
                 </div>

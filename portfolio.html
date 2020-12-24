@@ -15,7 +15,7 @@
 <body>
 
     <!--меню главной навигации-->
-    <header class="page-header border-botton">
+    <header class="page-header">
         <div class="conteiner">
              <a href="#" class="logo">Web<span class="logo-color">Studio</span> </a>
                 <nav class="nav">
@@ -26,8 +26,20 @@
                     </ul>
                 </nav>   
             <ul class="header-contacts">
-                <li class="contact-item"><a class="header-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contact-item"><a class="header-links" href="tel:380961111111">+38 096 111 11 11</a></li>
+                <li class="contact-item"><a class="header-links" href="mailto:info@devstudio.com">
+                                                <svg class="icon-envelope">
+                                                    <use class="icon-mail" href="./img/symbol-defs.svg#icon-envelope" ></use>
+                                                </svg>                    
+                                                info@devstudio.com
+                                         </a>
+                </li>
+                <li class="contact-item"><a class="header-links" href="tel:380961111111">
+                                                <svg class="icon-smartphone">
+                                                    <use class="icon-mail" href="./img/symbol-defs.svg#icon-smartphone" ></use>
+                                                </svg>
+                                                +38 096 111 11 11
+                                          </a>
+                </li>
             </ul>   
         </div>  
     </header>
@@ -174,23 +186,66 @@
     </main>
     <!--Контактная информация подвал-->
     <footer class="page-footer">
-        <section class="footer-sec">
+        <section >
             <div class="conteiner">
-                <h2 class="invisible-title">Подвал</h2>
-                <a class="logo-footer" href="#">Web<span class="logo-color-footer">Studio</span> </a>
-                <address> 
-                    <ul class="contacts">
-                        <li class="contact-element">
-                            <p>г. Киев, пр-т Леси Украинки, 26</p>
-                        </li>
-                        <li class="contact-element contacts-foter">
-                            <a href="mailto:info@example.com">info@example.com</a>
-                        </li>
-                        <li class="contact-element contacts-foter">
-                            <a href="tel:380991111111">+38 099 111 11 11</a>
-                        </li>                     
-                    </ul>
-                </address>
+                <div class="contacts-footer">
+                    <div>
+                        <h2 class="invisible-title">Подвал</h2>
+                        <a class="logo-footer" href="#">Web<span class="logo-color-footer">Studio</span> </a>
+                        <address> 
+                            <ul class="contacts">
+                                <li class="contact-element">
+                                    <p>г. Киев, пр-т Леси Украинки, 26</p>
+                                </li>
+                                <li class="contact-element contacts-foter">
+                                    <a href="mailto:info@example.com">info@example.com</a>
+                                </li>
+                                <li class="contact-element contacts-foter">
+                                    <a href="tel:380991111111">+38 099 111 11 11</a>
+                                </li>                     
+                            </ul>
+                        </address>
+                    </div>
+                    
+                    <div class="social-networks">
+                        <p class="titel-networks">присоединяйтесь</p>
+                        <ul class="footer-links">
+                            <li class="footer-link">
+                                <a >
+                                    <svg class="icon-footer">
+                                        <use  href="./img/symbol-defs.svg#icon-instagram" ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer-link">
+                                <a >
+                                    <svg class="icon-footer">
+                                        <use  href="./img/symbol-defs.svg#icon-twitter" ></use>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="footer-link">
+                                <a >
+                                    <svg class="icon-footer">
+                                        <use  href="./img/symbol-defs.svg#icon-facebook" ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            
+                            <li class="footer-link">
+                                <a >
+                                    <svg class="icon-footer">
+                                        <use  href="./img/symbol-defs.svg#icon-linkedin" ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+                
             </div>
         </section>        
     </footer>
