@@ -448,8 +448,8 @@ fill: var(--hover-text-color);
   height: 20px;  
 }
 
-.icon-link:hover,
-.icon-link:focus{
+.social-link:hover .icon-link,
+.social-link:focus .icon-link{
   fill: var(--white-background-color);
 }
 
