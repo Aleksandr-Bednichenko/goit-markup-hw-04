@@ -159,6 +159,10 @@ body {
   color: var(--hover-text-color);
 }
 
+.border-heder {
+  border-bottom: 1px solid #ececec;
+}
+
 /*Секция Герой*/
 
 .hero {
@@ -477,7 +481,6 @@ body {
   border: 2px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  background: var(--logo-backgraund-color);
   align-items: center;
   justify-content: center;
 }
